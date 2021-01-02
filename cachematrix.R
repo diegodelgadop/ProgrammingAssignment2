@@ -5,12 +5,12 @@
 
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL
-        #establecer el vaor de la mátriz
+        #establecer el vaor de la matriz
   set <- function(y) {
     x <<- y
     inv <<- NULL
   }
-        # obtener el valor de la mátriz
+        # obtener el valor de la matriz
   get <- function() x
         #establecer el valor de la inversa
   setsolve <- function(solve) inv  <<- solve
